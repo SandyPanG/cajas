@@ -1,28 +1,35 @@
-body {
+
+body{
   background-color: black;
 }
 
-body div {
-  //*outline: 2em solid red;
-  padding: 2em;*//
+div{
+  height: 20em;
+  position: absolute;
+  width: 20em;
 }
 
-body > div{
+#box_1{
   background-color: red;
-  box-sizing: border-box;
-  height: 30em;
-  padding: 7.5em;
-  width: 30em;
+  left: 0;
+  top: 0;
 }
 
-body > div > div{
+#box_2{
+  background-color: green;
+  right: 0;
+  top: 0;
+
+}
+
+#box_3{
+  background-color: blue;
+  bottom: 0;
+  right: 0;
+}
+
+#box_4{
   background-color: purple;
-  height: 15em;
-  width: 15em;
-}
-
-body > div > div > div{
-  background-color: yellow;
-  height: 7.5em;
-  width: 7.5em;
+  bottom: 0;
+  left: 0;
 }
