@@ -11,25 +11,26 @@ div{
 
 #box_1{
   background-color: red;
-  left: 0;
-  top: 0;
+  display: inline-block;
+  position: absolute;
 }
 
 #box_2{
-  background-color: green;
-  right: 0;
-  top: 0;
-
+  background-color: purple;
+  display: inline-block;
+  height: 13em;
+  left: 4em;
+  position: absolute;
+  top: 4em;
+  width: 13em;
 }
 
 #box_3{
-  background-color: blue;
-  bottom: 0;
-  right: 0;
-}
-
-#box_4{
-  background-color: purple;
-  bottom: 0;
-  left: 0;
+  background-color: yellow;
+  display: inline-block;
+  height: 7.5em;
+  left: 4em;
+  position: absolute;
+  top: 4em;
+  width: 7.5em;
 }
