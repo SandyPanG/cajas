@@ -8,20 +8,38 @@ div{
   width: 20em;
 }
 
-#box_a {
+#box_1 {
   background: #ee3e64;
-  bottom: 0;
+  height: 200px;
   left: 0;
 	position: absolute;
-  right: 20%;
-  top: 0;
+	top: 0;
+	width: 200px;
 }
 
-#box_b {
-  background: #b7d84b;
-  bottom: 0;
-  left: 80%;
+#box_2 {
+  background: #44accf;
+  height: 200px;
 	position: absolute;
   right: 0;
-  top: 0;
+	top: 0;
+	width: 200px;
+}
+
+#box_3 {
+  background: #b7d84b;
+  bottom: 0;
+  height: 200px;
+  left: 0;
+	position: absolute;
+	width: 200px;
+}
+
+#box_4 {
+  background: #ebde52;
+  bottom: 0;
+  height: 200px;
+	position: absolute;
+	right: 0;
+	width: 200px;	
 }
