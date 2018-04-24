@@ -17,6 +17,7 @@ div{
 }
 
 #box_2 {
+  left: 200px;
 	position: relative;
 	width: 200px;
 	height: 200px;
