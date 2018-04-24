@@ -10,14 +10,18 @@ body{
 
 #box_1 {
   background: #ee3e64;
-  height: 200px;
-  width: 200px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 20%;
 }
 
 #box_2 {
-  background: #44accf;
-	height: 200px;
-  left: 100px;
+  background: #b7d84b;
+  bottom: 0;
+  left: 80%;
   position: absolute;
-  width: 200px;
+  top: 0;
+  right: 0;
 }
