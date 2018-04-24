@@ -5,42 +5,23 @@ body{
 
 div{
   height: 20em;
-  position: absolute;
   width: 20em;
 }
 
-#box_1 {
-  background: #ee3e64;
-  left: 0;
+#box_a {
+  background: red;
+  bottom: 10px;
+  left: 10;
 	position: absolute;
-  top: 0;
-	width: 200px;
-	height: 200px;
+  right: 10px;
+  top: 10;
 }
 
-#box_2 {
-  background: #44accf;
+#box_b {
+  background: white;
+  bottom: 20px;
+  left: 20px;
 	position: absolute;
-  right: 0;
-  top: 0;
-	width: 200px;
-	height: 200px;
-}
-
-#box_3 {
-  background: #b7d84b;
-  bottom: 0;
-  left: 0;
-	position: absolute;
-	width: 200px;
-	height: 200px;
-}
-
-#box_4 {
-  background: #ebde52;
-  bottom: 0;
-  height: 200px;
-  position: absolute;
-  right: 0;
-  width: 200px;
+  right: 20px;
+  top: 20px;
 }
