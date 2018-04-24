@@ -9,26 +9,23 @@ div{
   width: 20em;
 }
 
-#box_1{
-  background-color: blue;
-  display: inline-block;
-  position: absolute;
+#box_1 {
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
 }
 
-#box_2{
-  background-color: green;
-  display: inline-block;
-  height: 10em;
-  left: 5.5em;
-  position: absolute;
-  top: 5.5em;
-  width: 10em;
+#box_2 {
+	position: static; /*relative;*/
+	width: 200px;
+	height: 200px;
+	background: #44accf;
 }
 
-#box_3{
-  background-color: black;
-  display: inline-block;
-  height: 5em;
-  position: absolute;
-  width: 5em;
+#box_3 {
+	position: /*relative;*/ static;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
 }
