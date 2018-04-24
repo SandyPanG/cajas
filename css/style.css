@@ -1,25 +1,22 @@
 
-body{
+/*body{
   background-color: black;
 }
 
-/*div{
+div{
   height: 20em;
   width: 20em;
 }*/
 
-#box_1 {
-  background: #ee3e64;
-  height: 200px;
-  position: relative;
-  width: 200px;
-}
+#box_1, #box_2 p {
+  margin: 0 auto;
+  width: 900px;  }
 
 #box_2 {
-  background: #44accf;
-  height: 200px;
-  left: 100px;
-  position: absolute;
-  top: 0;
-  width: 200px;
+  background: #f95b34;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+  position: fixed;
+  right: 0;
 }
