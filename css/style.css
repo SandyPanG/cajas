@@ -3,52 +3,25 @@ body{
   background-color: black;
 }
 
-div{
+/*div{
   height: 20em;
   width: 20em;
+}*/
+
+#box_a {
+  background: blue;
+  bottom: 10px;
+  left: 10px;
+	position: absolute;
+  right: 10px;
+	top: 10px;
 }
 
-.orange {
-  background: #f95b34;
+#box_b {
+  background: orange;
+	bottom: 20px;
+  left: 20px;
   position: absolute;
-  top: 39%;
-  left: 41%;
-  width: 40px;
-  height: 40px;
-}
-
-#box_1 {
-  background: #ee3e64;
-  height: 200px;
-  left: 0;
-	position: absolute;
-	top: 0;
-	width: 200px;
-}
-
-#box_2 {
-  background: #44accf;
-  height: 200px;
-	position: absolute;
-  right: 0;
-	top: 0;
-	width: 200px;
-}
-
-#box_3 {
-  background: #b7d84b;
-  bottom: 0;
-  height: 200px;
-  left: 0;
-	position: absolute;
-	width: 200px;
-}
-
-#box_4 {
-  background: #ebde52;
-  bottom: 0;
-  height: 200px;
-	position: absolute;
-	right: 0;
-	width: 200px;
+	right: 20px;
+  top: 20px;
 }
